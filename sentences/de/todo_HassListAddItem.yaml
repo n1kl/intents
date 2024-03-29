@@ -5,8 +5,8 @@ intents:
       - sentences:
           - "füge <item> [zu] <meine_liste> hinzu"
           - "füge [zu] <meine_liste> <item> hinzu"
-          - "(setz[e]|schreib[e]|nehme|nimm) <item> (auf|in) <meine_liste>"
-          - "<item> (auf|in) <meine_liste> [setzen|schreiben|nehmen]"
+          - "(setz[e]|schreib[e]|nehme|nimm|pack[e]) <item> (auf|in) <meine_liste>"
+          - "<item> (auf|in) <meine_liste> [setzen|schreiben|nehmen|packen]"
           - "<item> [auf|in|zu] <meine_liste> hinzufügen"
         response: item_added
         requires_context:
